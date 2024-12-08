@@ -20,7 +20,7 @@ export default function Hero1() {
        
         {/* Image */}
         <div className=" flex w-15% mt-11 mr-10">
-          <img src="/image.png" alt="Food" className="w-[400px]  rounded-lg shadow-lg" />
+          <Image src="/image.png" alt="Food" width={400px} height={150px} className="w-[400px]  rounded-lg shadow-lg" />
           
         </div>
         
@@ -52,10 +52,10 @@ export default function Hero1() {
        
         {/* Image */}
         <div className="w-15%">
-          <img src="/ab.png" alt="Food" className=" w-[580px] rounded-lg shadow-lg" />
+          <Image src="/ab.png" alt="Food" width={580px} height={250px} className=" w-[580px] rounded-lg shadow-lg" />
           <div className="flex justify-content">
-          <img src="/ab2.png" alt="Food" className=" w-[250px] rounded-lg shadow-lg" />
-          <img src="/ab3.png" alt="Food" className=" w-[330px] rounded-lg shadow-lg" />
+          <Image src="/ab2.png" alt="Food"  width={580px} height={250px}className=" w-[250px] rounded-lg shadow-lg" />
+          <Image src="/ab3.png" alt="Food" width={580px} height={250px} className=" w-[330px] rounded-lg shadow-lg" />
           </div>
           
         </div>
